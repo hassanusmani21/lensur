@@ -1,0 +1,63 @@
+.custom-form-card {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .section-header {
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  .instrument-row {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .custom-text-field {
+    margin-bottom: 15px;
+  }
+  
+  .add-instrument-btn {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  /* Custom styles for classic theme */
+.custom-text-field {
+  font-family: 'Georgia', serif;
+  border: 1px solid #bdbdbd;
+  background-color: #f9f9f9;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.add-button {
+  background-color: #8c8c8c;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 8px 16px;
+  font-family: 'Georgia', serif;
+  margin-top: 10px;
+}
+
+.card {
+  border: 1px solid #d4d4d4;
+  background-color: #fafafa;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.section-header {
+  font-family: 'Georgia', serif;
+  font-size: 1.5rem;
+  color: #4d4d4d;
+  border-bottom: 2px solid #bdbdbd;
+  margin-bottom: 10px;
+}
+
+
+
+  

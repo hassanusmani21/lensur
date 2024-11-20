@@ -1,0 +1,96 @@
+.container{
+  margin-top: 20px;
+  background-color: rgb(250, 251, 251);
+
+}
+
+.form-style {
+  background-color: white;
+  padding: 25px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  box-shadow: rgba(90, 114, 123, 0.11) 0px 7px 30px 0px;
+  margin: 15px;
+}
+
+.ip-label{
+  color:black !important;
+}
+
+.card{
+  display:flex;
+  flex-direction:column;
+  margin:20px;
+  padding:10px 20px 20px 20px;
+  border-radius: 8px;
+   border:1px solid #ddd;
+   background-color: white;
+    box-shadow:rgba(90, 114, 123, 0.11) 0px 7px 30px 0px
+}
+
+
+.add-btn{
+  background-color: #00C292 !important;
+  color: white !important;
+  height: 30px !important;
+  margin-top: 2rem !important;
+  margin-left: 18px  !important;
+}
+
+
+.submit-btn{
+  background-color: #03C9D7 !important;
+  padding: 8px 12px !important;
+  margin-top: 10px !important;
+}
+
+.update-btn{
+  background-color: #03C9D7 !important;
+  padding: 8px 12px !important;
+  margin-top: 8px !important;
+}
+
+
+.cancel-btn{
+  background-color: #E46A76 !important;
+  padding: 8px 12px !important;
+  margin-top: 8px !important;
+  margin-left: 15px !important;
+
+}
+
+.text-field{
+  border-color: #DEE3E9 !important;
+  border-radius: 10px !important;
+  background-color: white !important;
+  padding:0px !important;
+}
+
+.deleteIcon{
+
+  background-color: red !important;
+  color: white !important;
+}
+
+
+
+
+/* Successpage */
+.successContainer{
+  text-align:center !important;
+  margin-top: 50px !important;
+}
+
+CheckCircleOutlineIcon{
+  font-size:100  !important;
+  color:green !important;
+}
+
+.typoSuccess{
+  margin-top: 20px;
+}
+
+.typoBody{
+  margin-bottom: 20px;
+}
+

@@ -1,0 +1,681 @@
+body{
+    font-family: "DM Sans", sans-serif !important;
+    font-weight: 400;
+    font-size: 0.8rem !important;
+    line-height: 1.5 !important;
+    letter-spacing: 0.00938em !important;
+    overflow-x: hidden;
+    width: 100%;
+  }
+  
+  /* heading */
+
+  h1{
+    margin-left:5px;
+    margin-bottom:1rem;
+    color:#03346E;
+    font-family: "DM Sans", sans-serif !important;
+    font-size: 1.60rem !important;
+    line-height: 1.235 !important;
+
+  }
+
+
+  .css-2e6lci {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 15px;
+    margin: 1.3em 0em 1em 0em !important;
+    font-weight: 550;
+    background-color: rgb(229, 250, 251);
+    color: rgb(3, 201, 215);
+    border-radius: 10px 10px 0 0;
+}
+
+  
+  .css-1tqrhto >.ps-menu-button {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex !important;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 43px !important;
+    -webkit-text-decoration: none;
+    text-decoration: none !important;
+    color: inherit;
+    box-sizing: border-box;
+    cursor: pointer;
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+  }
+  
+
+  .css-17w9904-MuiTypography-root {
+    margin: 0 !important;
+    font-family: "DM Sans", sans-serif !important;
+    font-weight: 450 !important;
+    font-size: 0.85rem !important;
+    line-height: 1.5 !important; 
+}
+
+
+  .container{
+    margin-top: 20px !important;
+    background-color: rgb(250, 251, 251) !important;
+    max-width:93% !important;
+  }
+
+  .searchBtn{
+    background-color:#e74545 !important;
+    color:white !important;
+     margin:1rem 0 1rem 1rem !important;
+     padding:8px !important;
+
+  }
+
+
+  .editContainer{
+    background-color:white;
+    border:1px solid #ddd;
+    box-shadow:rgba(90, 114, 123, 0.11) 0px 7px 30px 0px;
+    margin:1.5em 1em 0 5%;
+    border-radius:8px;
+     width:88%;
+  }
+
+.editContainer>h2{
+margin-left: 2.5%;
+font-size: 1.4rem;
+line-height: 1.5;
+ font-weight: 550;
+color:#03346E;
+font-family: 'Sans-serif fonts', Times, serif !important;
+}
+
+
+  .form-style {
+    background-color: #F5F7F8;
+    padding: 11px 25px 25px 25px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    box-shadow: rgba(90, 114, 123, 0.11) 0px 7px 30px 0px;
+    /* margin: 15px; */
+  }
+  
+  .ip-label{
+    color:black !important;
+  }
+
+  .css-15r7k6p {
+    height: 80vh;
+    padding-right: 16px;
+    /* z-index: 50000; */
+}
+
+  
+  .card{
+    display:flex !important;
+    flex-direction:column !important;
+    margin:20px 25px 0px 0px !important;
+    padding:10px 32px 25px 32px !important;
+    border-radius: 8px !important;
+    border:1px solid #ddd !important;
+    background-color: white !important;
+    box-shadow:rgba(90, 114, 123, 0.11) 0px 7px 30px 0px !important;
+    max-width: 100%;
+  }
+
+  
+  .card>h4{
+    color: #03346E;
+    font-size: 1.1rem;
+    font-weight:600;
+  }
+  
+  
+  .add-btn{
+    background-color: #00C292 !important;
+    color: white !important;
+    height: 20px !important;
+    margin: 3rem 1.5rem 3rem 0rem !important;  
+    padding: 8px 12px !important; 
+  }
+  
+  .css-um1o6k{
+    display:none !important;
+    position: absolute !important;
+    right:-6px !important;
+    top: 50% !important;
+  }
+
+  .css-1ns5f5t {
+    padding-left: 7px !important;
+}
+  
+  
+  .css-honxw6 {
+    display: inline-block;
+    -webkit-transition: -webkit-transform 0.3s !important;
+    transition: transform 0.3s !important;
+    border-right: 2px solid currentcolor !important;
+    border-bottom: 2px solid currentcolor !important;
+    width: 5px !important;
+    height: 5px !important;
+    -moz-transform: rotate(-45deg) !important;
+    -ms-transform: rotate(-45deg) !important;
+    transform: rotate(-45deg) !important;
+    margin-right: 9px  !important;
+  }
+  
+  
+  .css-jn69v9 {
+    display: inline-block !important;
+    -webkit-transition: -webkit-transform 0.3s !important;
+    transition: transform 0.3s !important;
+    border-right: 2px solid currentcolor !important;
+    border-bottom: 2px solid currentcolor !important;
+    width: 5px !important;
+    height: 5px !important;
+    -webkit-transform: rotate(45deg) !important;
+    -moz-transform: rotate(45deg) !important;
+    -ms-transform: rotate(45deg) !important;
+    transform: rotate(45deg) !important;
+    margin-right: 9px !important;
+    margin-bottom: 3px !important;
+  }
+  
+
+  .css-2e6lci {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    gap:8px;
+    padding: 15px;
+    margin: 3em 0em 1em 0em;
+    font-weight: 550;
+    background-color: rgb(229, 250, 251);
+    color: rgb(3, 201, 215);
+    border-radius: 10px 10px 0 0 ;
+}
+
+  
+  
+  .submit-btn{
+    background-color: #03C9D7 !important;
+    padding: 8px 12px !important;
+    margin: 2rem 0rem !important;
+  }
+  
+  
+  
+  .update-btn{
+    background-color: #03C9D7 !important;
+    padding: 8px 12px !important;
+    margin: 1.5rem 1.5rem!important;
+  }
+  
+  
+  .cancel-btn{
+    background-color: #E46A76 !important;
+    padding: 8px 12px !important;
+    margin: 1.5rem 1.5rem!important;
+  
+  }
+  
+  .text-field{
+    border-color: #DEE3E9 !important;
+    border-radius: 10px !important;
+    /* background-color: white !important;  */
+  } 
+  
+  .deleteIcon{
+  
+    background-color: red !important;
+    color: white !important;
+  }
+  
+  
+  
+  
+  .sidebarBox{
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    padding-right: 0px;
+    margin: 5rem 1rem 1rem 0.5rem; 
+  }
+  
+  .sidebarBox:hover {
+    overflow-y: auto; /* Show scrollbar on hover */
+}
+
+/* Webkit Scrollbar Styling */
+::-webkit-scrollbar {
+    width: 0.3rem !important; /* Set the scrollbar width */
+    height: 0.1rem !important; /* Set the scrollbar height (for horizontal scrollbar) */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px white;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #d3d3d3;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: gray;
+}
+
+
+/* Sidebar Css */
+.sidebarBox {
+  overflow-y: auto; /* Ensure the sidebar is scrollable */
+  overflow-x: hidden; /* Ensure the sidebar is scrollable */
+}
+
+
+.sidebarBox .css-dip3t8 {
+  background-color: transparent !important;
+}
+
+.sidebarBox ul,
+.sidebarBox ul ul {
+  padding: 0;
+  margin: 0;
+  list-style: none !important; /* Remove bullet points */
+}
+
+.sidebarBox li {
+  list-style: none !important; /* Remove bullet points */
+}
+
+.sidebarBox .pro-sidebar-content {
+  padding: 0; /* Additional specificity */
+}
+
+.sidebarBox .pro-menu {
+  padding: 0; /* Additional specificity */
+  overflow: hidden;
+}
+
+
+.sidebarBox .pro-menu-item {
+  padding: 5px 10px;
+  border-radius: 8px;
+  margin: 4px 0;
+  overflow: hidden;
+
+}
+
+
+.sidebarBox .pro-menu-item:hover {
+  background-color: #03C9D7;
+  color: white;
+}
+
+.sidebarBox .pro-menu-item-active {
+  background-color: #03C9D7 !important;
+  color: white !important;
+}
+
+
+.sideBarContent{
+  display:flex;
+  border-radius:20px;
+  /* max-height:50vh !important; */
+   width: 20%;
+  justify-content:center
+}
+
+
+#custom-sidebar{
+    background-color: #ffffff;
+    flex: 1;
+    color:#B0B0B0;
+    position: fixed;
+    max-height: 85vh !important;
+    box-shadow:rgba(90, 114, 123, 0.11) 0px 7px 30px 0px;
+    transition: box-shadow 0.3s ease; /* Smooth transition */
+    overflow-y: auto;
+    z-index: 50000;
+    margin-left:0.8%;
+    margin-top:0.5%;
+    border-radius: 18px;
+}
+
+.custom-text-field .MuiInputLabel-root {
+  /* Your CSS styles here */
+  color: #BBBBBB!important;
+}
+
+.custom-text-field .MuiInputLabel-shrink {
+  color: #03C9D7 !important; 
+}
+
+
+.custom-text-field .MuiFormHelperText-root {
+  color: grey; /* Default color for helper text */
+  font-size: 12px; /* Example of changing the font size */
+}
+
+/* Target helper text when an error exists */
+.custom-text-field .Mui-error {
+  color: red; /* Change to red when there's an error */
+}
+
+#disableItem{
+  /* background-color: rgb(248, 249, 251) !important; Change background color */
+  background-color: #e9eaece3 !important; /* Change background color */
+  cursor: not-allowed !important ; /* Change cursor to indicate it's disabled */
+  color:#4e4c4c;
+}
+
+
+.custom-input {
+  cursor: not-allowed !important; /* Apply not-allowed cursor to input field */
+}
+
+
+/* Logout Button */
+.logoutBtn {
+  font-family: "DM Sans", sans-serif;
+  border-radius: 8px;
+  margin: 2px 0px;
+  padding: 15px 0px;
+  width: 98% !important;
+  color: #f1001c;
+}
+
+/* logo */
+.logoImg{
+max-width:3%;
+height:1%;
+margin-left:2%;
+box-shadow:rgba(0, 0, 0, 0.1) 1px 4px 7px;
+border-radius:3px 
+}
+
+.logoName{
+  margin-left:1%;
+  font-size: 1.8em;
+  font-family: Crillee Italic Std, sans-serif;
+  font-weight:700
+}
+
+/* table css */
+
+/* Add these styles to your CSS file or style block */
+
+/* General styles for the table container */
+.table-container {
+  padding: 4px;
+  max-width: 95%;
+  border-radius: 8px;
+  margin: 10px auto;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+
+/* Table header styles */
+.table-header th {
+  background-color: #f8f9fa;
+  color: #495057;
+  font-weight: bold;
+  text-align: left;
+  padding: 10px;
+}
+
+
+/* Table body row styles */
+.table-row {
+  border-bottom: 1px solid #e9ecef;
+}
+
+
+.table-row td {
+  padding: 10px;
+  text-align: left;
+  vertical-align: middle;
+}
+
+/* Status and team indicator styles */
+.status-active {
+  color: green;
+}
+
+.status-pending {
+  color: orange;
+}
+
+.status-completed {
+  color: teal;
+}
+
+.status-cancel {
+  color: red;
+}
+
+.team-indicator {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  border-radius: 50%;
+  color: white;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.team-s {
+  background-color: #f8b195;
+}
+
+.team-d {
+  background-color: #f67280;
+}
+
+.team-a {
+  background-color: #c06c84;
+}
+
+.team-x {
+  background-color: #6c5b7b;
+}
+
+.team-n {
+  background-color: #355c7d;
+}
+
+.team-y {
+  background-color: #f8b195;
+}
+
+.team-solo {
+  background-color: #355c7d;
+}
+
+/* Pagination styles */
+.pagination-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 5px;
+  margin-right: 0.7rem;
+}
+
+.pagination-label {
+  margin: 0 5px;
+  font-size: 12px;
+  color: #4a4a4a;
+}
+
+.pagination-select {
+  cursor: pointer;
+  padding: 3px 7px;
+  font-size: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background-color: #f0f0f0;
+}
+
+.pagination-button {
+  color: #fff;
+  background-color: black;
+  padding: 1px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.pagination-span {
+  padding: 2px 6px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  color: #4a4a4a;
+  font-size: 11px;
+}
+
+
+
+
+/* Custom Text Field */
+.custom-text-field {
+  border-radius: 4px;
+  border-color: #ccc;
+  color: black;
+  width: 100%; /* Apply fullWidth behavior */
+  
+}
+
+
+
+.custom-text-field .MuiOutlinedInput-root {
+  padding-top: 3px;
+  color: black;
+}
+
+
+.custom-text-field .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  /* border color after clicking on text field  */
+  border: 1px solid rgb(3, 201, 215);    
+}
+
+
+
+.custom-text-field .MuiOutlinedInput-input:focus {
+  /* Background color after clicking on text field  */
+  /* background-color: #e0e3ec21; */
+  width: 100%;
+}
+
+
+.custom-text-field .MuiInputLabel-root.Mui-focused {
+  /* Label color on Clicking the field */
+  color: rgb(3, 201, 215); 
+}
+
+
+/* Auto Complete */
+.custom-autocomplete .MuiAutocomplete-inputRoot {
+  padding: 0 !important; /* Reduce padding inside the input */
+  min-height: 30px; /* Set a minimum height */
+}
+
+.custom-autocomplete .MuiInputBase-input {
+  padding: 4px 8px !important; /* Adjust padding inside the input */
+  font-size: 14px; /* Adjust font size if necessary */
+}
+
+.custom-autocomplete .MuiOutlinedInput-root {
+  padding: 0; /* Reduce padding in the outlined input */
+  min-height: 30px; /* Set the desired height */
+}
+
+.custom-autocomplete .MuiAutocomplete-endAdornment {
+  top: calc(50% - 12px); /* Adjust the position of the dropdown arrow */
+}
+
+
+
+
+/* Successpage */
+.successContainer{
+  text-align:center !important;
+  margin-top: 50px !important;
+}
+
+.checkIcon{
+  font-size:5rem  !important;
+  color:green !important;
+  width: 100% !important;
+}
+
+.typoSuccess{
+  margin-top: 20px !important;
+}
+
+.typoBody{
+  margin-bottom: 20px !important;
+}
+
+
+/* Tab Css */
+.MuiTabs-flexContainer {
+  display: flex !important;
+  justify-content: start !important;
+  gap: 8px !important; /* Adjust spacing as needed */
+  border: 1px solid #C4C4C4 !important;
+  border-radius: 10px 10px 0px 0px !important;
+  padding: 5px 6px !important;
+}
+
+.MuiTab-root {
+  text-transform: none;
+  font-weight: 500  !important; /* Reduce font weight for a more subtle look */
+  padding: 7px 15px !important;
+  min-width: 80px !important;
+  min-height: 40px !important;
+  transition: background-color 0.4s ease-in-out !important;
+}
+
+.MuiTabs-indicator {
+  background-color: transparent !important;
+  transition: transform 0.3s ease-in-out !important; 
+}
+
+.MuiTab-root.Mui-selected {
+  border-radius: 4px 4px 0px 0px !important;
+  border: 2px solid rgb(3, 201, 215) !important; /* Add a subtle border */
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1) !important;
+  background-color: rgb(3, 201, 215) !important; /* Set background color for selected tab */
+  color: white !important; /* Set text color for selected tab */
+}
+
+
+
+/* login */
+.loginBox{
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
