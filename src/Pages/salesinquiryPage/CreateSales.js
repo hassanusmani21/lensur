@@ -1740,7 +1740,7 @@ export default function CreatePumpSeal() {
       <form>
         {/* Existing Drawing Requisition Section */}
         <div className='card'>
-          {!pId ? <h1>New Pump Seal :</h1> : <h1>Update Pump Seal :</h1>}
+          {!pId ? <h1>New Sales Inquiry :</h1> : <h1>Update Sales Inquiry :</h1>}
           <div className="MuiBox-root css-2e6lci">
             <svg width="18" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-alert-circle">
               <g>
@@ -1749,7 +1749,7 @@ export default function CreatePumpSeal() {
                 <line x1="12" y1="16" x2="12.01" y2="16"></line>
               </g>
             </svg>
-            <div className="MuiBox-root css-1isemmb">Drawing Requisition - Pump Seal :-</div>
+            <div className="MuiBox-root css-1isemmb">Sales Inquiry :-</div>
           </div>
           <hr />
           <Grid container spacing={2}>
@@ -1977,7 +1977,7 @@ export default function CreatePumpSeal() {
                 <line x1="12" y1="16" x2="12.01" y2="16"></line>
               </g>
             </svg>
-            <div className="MuiBox-root css-1isemmb">Proposed Mechanical Seal :-</div>
+            <div className="MuiBox-root css-1isemmb">Add Item Details :-</div>
           </div>
 
           {/* Wrapper div with consistent height */}
@@ -1996,8 +1996,8 @@ export default function CreatePumpSeal() {
                         onChange={handleSealConfigChange}
                         label="Seal Type"
                       >
-                        <MenuItem value="single">Single</MenuItem>
-                        <MenuItem value="Pump">Double</MenuItem>
+                        <MenuItem value="single">Agitator</MenuItem>
+                        <MenuItem value="Pump">Pump</MenuItem>
                       </Select>
                     </FormControl>
                   </Grid>

@@ -8,7 +8,7 @@ import { getCustomer, handleSubmit } from '../../../apis/CustomerApi';
 import { handleUpdate } from '../../../apis/CustomerApi';
 import { black } from '@mui/material/colors';
 import moment from 'moment';
-import axiosInstance from '../../../axios/axiosInstance';
+import axiosInstance, { setupInterceptors } from "../../../axios/axiosInstance";
 import { useAuth } from '../../../contextApi/AuthContext';
 
 
